@@ -1,7 +1,7 @@
 # Android-App
 # Easy-Attendance
 
-        Attendance management is important to every single organization; it will only decide
+Attendance management is important to every single organization; it will only decide
 whether an organization will be successful in the future. Organizations must keep a track of
 people under them such as employees and students to maximize their performance. Managing
 student attendance during lecture periods has become a difficult challenge. The ability to
