@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+    <Button
+        android:id="@+id/first"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text = "I year"
+        android:textSize="18dp"
+        android:layout_marginRight="10dp"
+        style="@style/Button"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/second"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text = "II year"
+        android:textSize="18dp"
+        android:layout_marginRight="10dp"
+        style="@style/Button"
+        android:layout_toRightOf="@+id/first"
+        android:layout_margin="10dp"
+    />
+    <Button
+        android:id="@+id/third"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text = "III year"
+        android:textSize="18dp"
+        android:layout_marginRight="10dp"
+        style="@style/Button"
+        android:layout_below="@+id/first"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/fourth"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text = "IV year"
+        android:textSize="18dp"
+        android:layout_marginRight="10dp"
+        style="@style/Button"
+        android:layout_below="@+id/second"
+        android:layout_toRightOf="@+id/third"
+        android:layout_margin="10dp"
+        />
+    </RelativeLayout>
+</RelativeLayout>

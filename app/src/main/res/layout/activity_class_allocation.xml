@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="100dp">
+        <Button
+            android:id="@+id/period1"
+            android:layout_width="@dimen/_width"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+        <Button
+            android:id="@+id/period2"
+            android:layout_width="@dimen/_width"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+        <Button
+            android:id="@+id/period3"
+            android:layout_width="@dimen/_width"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+        <Button
+            android:id="@+id/period4"
+            android:layout_width="@dimen/_width"
+            android:layout_height="wrap_content"
+            android:text="4"/>
+        <Button
+            android:id="@+id/period5"
+            android:layout_width="@dimen/_width"
+            android:layout_height="wrap_content"
+            android:text="5"/>
+        <Button
+            android:id="@+id/period6"
+            android:layout_width="@dimen/_width"
+            android:layout_height="wrap_content"
+            android:text="6"/>
+        <Button
+            android:id="@+id/period7"
+            android:layout_width="@dimen/_width"
+            android:layout_height="wrap_content"
+            android:text="7"/>
+        <Button
+            android:id="@+id/period8"
+            android:layout_width="@dimen/_width"
+            android:layout_height="wrap_content"
+            android:text="8"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+        <Button
+            android:id="@+id/day1"
+            android:layout_width="@dimen/day_width"
+            android:layout_height="wrap_content"
+            android:text="Mon"/>
+        <Button
+            android:id="@+id/day2"
+            android:layout_width="@dimen/day_width"
+            android:layout_height="wrap_content"
+            android:text="Tue"/>
+        <Button
+            android:id="@+id/day3"
+            android:layout_width="@dimen/day_width"
+            android:layout_height="wrap_content"
+            android:text="Wed"/>
+        <Button
+            android:id="@+id/day4"
+            android:layout_width="@dimen/day_width"
+            android:layout_height="wrap_content"
+            android:text="Thu"/>
+        <Button
+            android:id="@+id/day5"
+            android:layout_width="@dimen/day_width"
+            android:layout_height="wrap_content"
+            android:text="Fri"/>
+        <!--<Button-->
+            <!--android:id="@+id/day6"-->
+            <!--android:layout_width="@dimen/day_width"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Sat"/>-->
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout1"
+        android:numColumns="8">
+
+    </GridView>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+
+        android:layout_below="@+id/gridView"/>
+
+
+</RelativeLayout>

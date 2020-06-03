@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity"
+    android:background="@color/colorYellow">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="40dp">
+    <Button
+        android:id="@+id/attendance"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text = "Attendance"
+        android:textSize="18dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorGrey"/>
+    <Button
+        android:id="@+id/allocate"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text = "Class Allocated"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/attendance"
+        android:background="@color/colorGrey"/>
+    </RelativeLayout>
+
+</RelativeLayout>

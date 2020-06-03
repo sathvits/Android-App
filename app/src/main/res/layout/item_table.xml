@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow">
+    <EditText
+        android:id="@+id/hour"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text = "1"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorGrey"
+        />
+    <EditText
+        android:id="@+id/day"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text = "Mon"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/hour"
+
+        android:background="@color/colorGrey"
+        />
+    <Button
+        android:id="@+id/period"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text = "ANT"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorGrey"
+        android:layout_below="@+id/hour"
+        android:layout_toRightOf="@+id/day"
+        />
+</RelativeLayout>

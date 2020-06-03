@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="_width">33dp</dimen>
+    <dimen name="day_width">100dp</dimen>
+</resources>

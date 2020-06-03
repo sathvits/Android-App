@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:numColumns="8">
+    </GridView>
+
+    <ListView
+        android:id="@+id/list_view_with_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/gridView"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/list_view_with_checkbox">
+
+    <Button
+        android:id="@+id/list_select_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select All" />
+
+    <Button
+        android:id="@+id/list_select_none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select None"/>
+
+    <Button
+        android:id="@+id/list_select_reverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reverse Select"/>
+
+
+    <Button
+        android:id="@+id/list_remove_selected_rows"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Selected Rows" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+
+    </LinearLayout>
+</RelativeLayout>
